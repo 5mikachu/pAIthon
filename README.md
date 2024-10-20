@@ -49,8 +49,8 @@ This entire README was written by an AI! Yes, you read that correctly. The creat
 
 1. Clone the repository:
 ```bash
-git clone
-cd
+git clone https://github.com/5mikachu/pAIthon.git
+cd pAIthon
 ```
 
 2. Install the required packages:
