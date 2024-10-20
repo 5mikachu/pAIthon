@@ -25,19 +25,20 @@ organization = YOUR_ORGANIZATION
 project = YOUR_PROJECT
 model = gpt-4o-mini
 initial_message = You are a Monty Python expert, here to provide humours insights, witty banter and ...
+
+[general]
+markdown_conversion = False
 ```
 Make sure to fill in your own OpenAI API key and organization details.
 
 - **`requirements.txt`**: Lists the required packages for the application:
 ```plaintext
 configparser~=7.1.0
-openai~=1.51.2
+Markdown~=3.7
+openai~=1.52.0
 Flask~=3.0.3
 ```
 Use this file to install the necessary dependencies.
-``` shell
-pip install -r requirements.txt
-```
 
 - **`index.html`**: The HTML template for the main user interface of the application. Customize this file to change the appearance and layout.
 
@@ -71,3 +72,4 @@ python app.py
 
 - **Monty Python** for inspiring the idea that even AI can have a sense of humor!
 - **The AI** for writing an incredible README, I only needed to remove one killer rabbit! 
+- **The Creator(s)** for changing the code after generating the README, nullifying the initial time saved by using AI.
