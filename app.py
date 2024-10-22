@@ -14,7 +14,7 @@ def index():
 @app.route('/get_response', methods=['POST'])
 def get_response():
     """
-    Get a response based on the user input and optional file from OpenAI.
+    Get a response based on the user input and/or file from OpenAI.
     """
     user_input: str | None = request.form.get('message')
     file = request.files.get('file')
