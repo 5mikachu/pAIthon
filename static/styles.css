@@ -31,6 +31,17 @@ h1 {
   margin-top: 1em;
   text-align: center;
 }
+.rainbow-text {
+    background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #7f00ff, #ff00ff);
+    background-clip: text;
+    color: transparent;
+    animation: rainbow-scroll 20s linear infinite;
+    background-size: 1000% 100%;
+}
+@keyframes rainbow-scroll {
+    0%, 100% { background-position: 0% 0%; }
+    50% { background-position: 100% 0%; }
+}
 #chat-container {
     background-color: var(--background-color);
     flex: 1;
